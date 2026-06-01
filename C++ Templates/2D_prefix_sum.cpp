@@ -28,6 +28,8 @@ int main()
 
     while (q--)
     {
+
+        
         long long a, b, c, d;
         cin >> a >> b >> c >> d;
         long long result = pre[c][d] - pre[a - 1][d] - pre[c][b - 1] + pre[a - 1][b - 1];
